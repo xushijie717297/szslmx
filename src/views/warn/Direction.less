@@ -1,0 +1,85 @@
+@r:1rem/37.5;
+.Direction{
+    height: 100%;
+    width: 100%;
+    // background-color: #f7f8fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    & /deep/ .van-nav-bar{
+        background-color: #242838;
+        color: #fff;
+        .van-icon,.van-nav-bar__text,.van-nav-bar__title{
+            color: #fff;
+            font-size: 12px;
+        };
+        .van-nav-bar__title{
+            font-size: 15px;
+        }
+    }
+    #statusBar{
+      height: 24px;
+      background: #242838;
+  }
+  & /deep/ .van-nav-bar__right{
+    width: 80*@r;
+  }
+  & /deep/ .van-switch--on{
+    background-color: #2F63E5;
+  }
+  .check{
+    color: #2F63E5;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p{
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+@media screen and (orientation: landscape){
+    // 横屏
+    .Direction{
+        & /deep/ .van-nav-bar{
+          display: none;
+        }
+      }
+      .main{
+        width: 100% !important;
+      }
+      #statusBar{
+        display: none;
+      }
+}
+@media screen and (orientation: portrait){
+    // 竖屏
+    .Direction{
+        & /deep/ .van-nav-bar{
+          display: block;
+        }
+      }
+      #statusBar{
+        display: block;
+      }
+}
+h3{
+    height: 45*@r;
+    background-color: #cecece;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    // height: calc(100% - 95px);
+    flex: 1;
+    // width: 100%;
+    overflow: auto;
+    width: 100%;
+}
+
+

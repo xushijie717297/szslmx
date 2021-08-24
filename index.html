@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no, viewport-fit=cover" >
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" > -->
+    <title>水力模型</title>
+    <script src="./static/flexable.js"></script>
+    <script src="./static/flexible.js"></script>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css"> -->
+    <!-- <link rel="stylesheet" href="./src/swiper/swiper.min.css"> -->
+    <link rel="stylesheet" href="./static/js/swiper.min.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1767803_nvwf1wzllbd.css">
+    <!-- <script src="./src/swiper/swiper.min.js"></script> -->
+    <script src="./static/js/swiper.min.js"></script>
+    <!-- <script src="https://unpkg.com/swiper/js/swiper.min.js"> </script> -->
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+  <script>
+    var bodyClass = localStorage.getItem('themeColor') ? localStorage.getItem('themeColor') : 'theme_default';
+		  document.body.className = bodyClass;
+      // H5 plus事件处理
+      function plusReady() {
+      // 设置系统状态栏背景为红色
+      var type = plus.os.name;
+      // plus.navigator.setStatusBarStyle('dark');
+      console.log(plus.navigator.getUIStyle())
+
+      if(type == "iOS") {
+        plus.navigator.setStatusBarBackground("#242838");
+      } else {
+        plus.navigator.setStatusBarBackground("#242838");
+      }
+      }
+      if(window.plus) {
+        plusReady();
+      } else {
+        document.addEventListener("plusready", plusReady, false);
+      } 
+  </script>
+</html>

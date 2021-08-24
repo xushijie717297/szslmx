@@ -1,0 +1,37 @@
+[
+    {
+        "name":"地址",
+        "unit":"",
+        "value":"地址"
+    },
+    {
+        "name":"分公司",
+        "unit":"",
+        "value":"PressureChange"
+    },
+    {
+        "name":"地面高程",
+        "unit":" (m)",
+        "value":""
+    },
+    {
+        "name":"横坐标",
+        "unit":"",
+        "value":""
+    },
+    {
+        "name":"纵坐标",
+        "unit":"",
+        "value":""
+    },
+    {
+        "name":"模型ID",
+        "unit":"",
+        "value":""
+    },
+    {
+        "name":"消火栓编号",
+        "unit":"",
+        "value":""
+    }
+]

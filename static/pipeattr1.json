@@ -1,0 +1,47 @@
+[
+    {
+        "name":"流量",
+        "unit":" (m³/h)",
+        "value":""
+    },
+    {
+        "name":"压力",
+        "unit":" (m)",
+        "value":""
+    },
+    {
+        "name":"水压标高",
+        "unit":"",
+        "value":"Head"
+    },
+    {
+        "name":"GIS编号",
+        "unit":"",
+        "value":"Label"
+    },
+    {
+        "name":"地址",
+        "unit":"",
+        "value":"地址"
+    },
+    {
+        "name":"压力同比",
+        "unit":"",
+        "value":"PressureChange"
+    },
+    {
+        "name":"地面高程",
+        "unit":"",
+        "value":"地面高程"
+    },
+    {
+        "name":"横坐标",
+        "unit":"",
+        "value":"HMIGeometryXCoordinate"
+    },
+    {
+        "name":"纵坐标",
+        "unit":"",
+        "value":"HMIGeometryYCoordinate"
+    }
+]

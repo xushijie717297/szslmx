@@ -1,0 +1,32 @@
+[
+    {
+        "name":"ID",
+        "unit":"",
+        "value":""
+    },
+    {
+        "name":"名称",
+        "unit":"",
+        "value":""
+    },
+    {
+        "name":"横坐标",
+        "unit":"",
+        "value":""
+    },
+    {
+        "name":"纵坐标",
+        "unit":"",
+        "value":"PressureChange"
+    },
+    {
+        "name":"底板高程",
+        "unit":"(m)",
+        "value":"高程"
+    },
+    {
+        "name":"水位",
+        "unit":"(m)",
+        "value":""
+    }
+]

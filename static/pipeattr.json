@@ -1,0 +1,93 @@
+[
+    {
+        "name":"流量",
+        "unit":" (m³/h)",
+        "value":""
+    },
+    {
+        "name":"流速",
+        "unit":" (m/s)",
+        "value":""
+    },
+    {
+        "name":"水头损失",
+        "unit":" (m)",
+        "value":"Headloss"
+    },
+    {
+        "name":"起始点压力",
+        "unit":"",
+        "value":""
+    },
+    {
+        "name":"终止点压力",
+        "unit":"",
+        "value":""
+    },
+    {
+        "name":"分公司",
+        "unit":"",
+        "value":"分公司"
+    },
+    {
+        "name":"管径",
+        "unit":" (mm)",
+        "value":"管径"
+    },
+    {
+        "name":"管材",
+        "unit":"",
+        "value":"管材"
+    },
+    {
+        "name":"管长",
+        "unit":" (m)",
+        "value":"管长"
+    },
+
+    {
+        "name":"阻力系数",
+        "unit":"",
+        "value":"Physical_HazenWilliamsC"
+    },
+    {
+        "name":"状态",
+        "unit":"",
+        "value":"PipeStatus"
+    },
+    {
+        "name":"管龄",
+        "unit":"",
+        "value":"PipeAge"
+    },
+    {
+        "name":"安装年代",
+        "unit":"",
+        "value":"埋设时间"
+    },
+    {
+        "name":"24小时流向变化",
+        "unit":" (次)",
+        "value":"Direction_Change"
+    },
+    {
+        "name":"模型ID",
+        "unit":"",
+        "value":"ElementId"
+    },
+    {
+        "name":"GIS编号",
+        "unit":"",
+        "value":"Label"
+    },
+    {
+        "name":"起始节点",
+        "unit":"",
+        "value":"StartNodeID"
+    },
+    {
+        "name":"终止节点",
+        "unit":"",
+        "value":"EndNodeID"
+    }
+]

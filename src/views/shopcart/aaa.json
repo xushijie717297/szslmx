@@ -1,0 +1,119 @@
+[
+    {
+        "cate": "运行状态",
+        "news": [
+            {
+                "url": "../../../static/menu/Flow.png",
+                "name": "管道流量",
+                "state": "Flow",
+                "only": 0,
+                "key": 0,
+                "show": true
+            },
+            {
+                "url": "../../../static/menu/Velocity.png",
+                "name": "管道流速",
+                "state": "Velocity",
+                "only": 0,
+                "key": 0,
+                "show": true
+            },
+            {
+                "url": "../../../static/menu/Slop.png",
+                "name": "水力坡度",
+                "state": "Slop",
+                "only": 0,
+                "key": 0,
+                "show": true
+            },
+            {
+                "url": "../../../static/menu/HydraulicGrade.png",
+                "name": "水压标高",
+                "state": "HydraulicGrade",
+                "only": 0,
+                "key": 0,
+                "show": true
+            },
+            {
+                "url": "../../../static/menu/Pressure.png",
+                "name": "压力",
+                "state": "Pressure",
+                "only": 0,
+                "key": 0,
+                "show": true
+            },
+            {
+                "url": "../../../static/menu/liu.png",
+                "name": "水流方向",
+                "state": "flow",
+                "only": 0,
+                "key": 0,
+                "show": true
+            },
+            {
+                "url": "../../../static/menu/Demand.png",
+                "name": "节点流量",
+                "state": "Demand",
+                "only": 0,
+                "key": 0,
+                "show": true
+            },
+            {
+                "url": "../../../static/menu/SupplyArea.png",
+                "name": "供水分界",
+                "state": "SupplyArea",
+                "only": 0,
+                "key": 0,
+                "show": true
+            },
+            {
+                "url": "../../../static/menu/Age.png",
+                "name": "水龄",
+                "state": "Age",
+                "only": 0,
+                "key": 0,
+                "show": true
+            },
+            {
+                "url": "../../../static/menu/PipeAge.png",
+                "name": "管龄",
+                "state": "PipeAge",
+                "only": 0,
+                "key": 0,
+                "show": true
+            },
+            {
+                "url": "../../../static/menu/Diameter.png",
+                "name": "管径分类",
+                "state": "Diameter",
+                "only": 0,
+                "key": 0,
+                "show": true
+            },
+            {
+                "url": "../../../static/menu/Material.png",
+                "name": "管材分类",
+                "state": "Material",
+                "only": 0,
+                "key": 0,
+                "show": true
+            },
+            {
+                "url": "../../../static/menu/PressureChange.png",
+                "name": "压力波动",
+                "state": "PressureChange",
+                "only": 0,
+                "key": 0,
+                "show": true
+            },
+            {
+                "url": "../../../static/menu/FlowChangeCount.png",
+                "name": "流向变化",
+                "state": "FlowChangeCount",
+                "only": 0,
+                "key": 0,
+                "show": true
+            }
+        ]
+    }
+]

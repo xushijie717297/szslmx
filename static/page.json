@@ -1,0 +1,277 @@
+[
+    {
+        "id":"Flow",
+        "title":"ztLayer",
+        "code": "Result_AbsoluteFlow_",
+        "url":"http://112.64.170.158:8888/ArcGIS/rest/services/PipeResult_sz/MapServer/0",
+        "outFields":["ElementId", "Result_AbsoluteFlow_0"],
+        "renderer": { "type": "class-breaks",
+            "field": "Result_AbsoluteFlow_0",
+            "visualVariables":[],
+            "classBreakInfos":[
+              {"minValue": 0, "maxValue": 9.999999999,"lable": "0", "symbol": {"type": "simple-line", "colorDark":"RGBA(0,93,231,0.5)", "color": "#005de7", "style": "solid", "width": "0.2"}},
+              {"minValue": 10, "maxValue": 49.999999999,"lable": "10", "symbol": {"type": "simple-line","colorDark":"RGBA(33,191,243,0.7)", "color": "#21bff3", "style": "solid", "width": "0.5"}},
+              {"minValue": 50, "maxValue": 99.999999999,"lable": "50", "symbol": {"type": "simple-line","colorDark":"RGBA(5,138,154,0.9)", "color": "#058a9a", "style": "solid", "width": "0.7"}},
+              {"minValue": 100, "maxValue": 499.999999999,"lable": "100", "symbol": {"type": "simple-line","colorDark":"#0bc840", "color": "#0bc840", "style": "solid", "width": "1"}},
+              {"minValue": 500, "maxValue": 999.999999999,"lable": "500", "symbol": {"type": "simple-line","colorDark":"#afd70f", "color": "#afd70f", "style": "solid", "width": "1.5"}},
+              {"minValue": 1000, "maxValue": 1999.999999999,"lable": "1k", "symbol": {"type": "simple-line","colorDark":"#f7df15", "color": "#f7df15", "style": "solid", "width": "1.7"}},
+              {"minValue": 2000, "maxValue": 2999.999999999,"lable": "2k", "symbol": {"type": "simple-line","colorDark":"#f07419", "color": "#f07419", "style": "solid", "width": "2"}},
+              {"minValue": 3000, "maxValue": 299999.999999999,"lable": ">3k", "symbol": {"type": "simple-line","colorDark":"#ee1289", "color": "#ee1289", "style": "solid", "width": "3"}}
+            ]
+        }
+    },
+    {
+        "id":"Velocity",
+        "code": "Result_Velocity_",
+        "title":"ztLayer",
+        "url":"http://112.64.170.158:8888/ArcGIS/rest/services/PipeResult_sz/MapServer/0",
+        "outFields":["ElementId", "Result_Velocity_0"],
+        "renderer": {   
+            "type": "class-breaks",
+            "field": "Result_Velocity_0",
+            "visualVariables":[],
+            "classBreakInfos":[
+            {"minValue": 0, "maxValue": 0.049999999,"lable": "0", "symbol": {"type": "simple-line","colorDark":"#005de7",  "color": "#005de7", "style": "solid", "width": "0.2"}},
+            {"minValue": 0.05, "maxValue":0.099999999,"lable": "0.05", "symbol": {"type": "simple-line","colorDark":"#00ffc6",  "color": "#00ffc6", "style": "solid", "width": "0.5"}},
+            {"minValue": 0.1, "maxValue": 0.29999999899999996,"lable": "0", "symbol": {"type": "simple-line","colorDark":"#73aa00",  "color": "#73aa00", "style": "solid", "width": "0.7"}},
+            {"minValue": 0.3, "maxValue": 0.499999999,"lable": "0.3", "symbol": {"type": "simple-line","colorDark":"#e79a00",  "color": "#e79a00", "style": "solid", "width": "1"}},
+            {"minValue": 0.5, "maxValue": 49.999999999,"lable": "0.5", "symbol": {"type": "simple-line","colorDark":"#EE1289",  "color": "#EE1289", "style": "solid", "width": "2"}}
+            ]
+        }
+    },
+    {
+        "id":"Slop",
+        "code": "Result_Slop_",
+        "title":"ztLayer",
+        "url":"http://112.64.170.158:8888/ArcGIS/rest/services/PipeResult_sz/MapServer/0",
+        "outFields":["ElementId", "Result_Slop_"],
+        "renderer": {   
+            "type": "class-breaks",
+            "field": "Result_Slop_0",
+            "visualVariables":[],
+            "classBreakInfos":[
+            {"minValue": 0, "maxValue": 0.009999999,"lable": "0", "symbol": {"type": "simple-line", "colorDark": "#005de7", "color": "#005de7", "style": "solid", "width": "0.2"}},
+            {"minValue": 0.01, "maxValue":0.049999999,"lable": "0.01", "symbol": {"type": "simple-line", "colorDark": "#005de7", "color": "#00ffc6", "style": "solid", "width": "0.5"}},
+            {"minValue": 0.05, "maxValue": 0.099999999,"lable": "0.05", "symbol": {"type": "simple-line", "colorDark": "#005de7", "color": "#73aa00", "style": "solid", "width": "0.7"}},
+            {"minValue": 0.1, "maxValue": 0.199999999,"lable": "0.1", "symbol": {"type": "simple-line", "colorDark": "#005de7", "color": "#e79a00", "style": "solid", "width": "1"}},
+            {"minValue": 0.2, "maxValue": 19.999999999,"lable": "0.2", "symbol": {"type": "simple-line", "colorDark": "#005de7", "color": "#EE1289", "style": "solid", "width": "2"}}
+            ]
+        }
+    },
+    {
+        
+        "id":"HydraulicGrade",
+        "code": "Result_HydraulicGrade_",
+        "title":"ztLayer",
+        "url":"http://112.64.170.158:8888/ArcGIS/rest/services/JunctionResult_sz/MapServer/0",
+        "outFields":["ElementId", "Result_HydraulicGrade_0"],
+        "renderer": {   
+            "type": "class-breaks",
+            "field": "Result_HydraulicGrade_0",
+            "visualVariables":[],
+            "classBreakInfos":[
+            {"minValue": 0, "maxValue": 44.999999999,"lable": "0", "symbol": {"type": "picture-marker", "color": "#6599E8", "colorDark":"#6599E8", "url": "/static/point/cat1.png", "width": "6", "height": "6"}},
+            {"minValue": 45, "maxValue":45.999999999,"lable": "33", "symbol": {"type": "picture-marker", "color": "#11C1FE", "colorDark":"#11C1FE", "url": "/static/point/cat1.png", "width": "8", "height": "8"}},
+            {"minValue": 46, "maxValue": 46.999999999,"lable": "34", "symbol": {"type": "picture-marker", "color": "#2908F1", "colorDark":"#2908F1", "url": "/static/point/cat2.png", "width": "10", "height": "10"}},
+            {"minValue": 47, "maxValue": 47.999999999,"lable": "35", "symbol": {"type": "picture-marker", "color": "#E1BA53", "colorDark":"#E1BA53", "url": "/static/point/cat3.png", "width": "12", "height": "12"}},
+            {"minValue": 48, "maxValue": 49.999999999,"lable": "36", "symbol": {"type": "picture-marker", "color": "#F95202", "colorDark":"#F95202", "url": "/static/point/cat4.png", "width": "14", "height": "14"}},
+            {"minValue": 50, "maxValue": 4999.999999999,"lable": "38", "symbol": {"type": "picture-marker", "color": "#AD0322", "colorDark":"#AD0322", "url": "/static/point/cat5.png", "width": "16", "height": "16"}}
+            ]
+        }
+    },
+    {
+        
+        "id":"Pressure",
+        "code": "Result_Pressure_",
+        "title":"ztLayer",
+        "url":"http://112.64.170.158:8888/ArcGIS/rest/services/JunctionResult_sz/MapServer/0",
+        "outFields":["ElementId", "Result_Pressure_0"],
+        "renderer": {   
+            "type": "class-breaks",
+            "field": "Result_Pressure_0",
+            "visualVariables":[],
+            "classBreakInfos":[
+            {"minValue": 0, "maxValue": 19.999999999,"lable": "0", "symbol": {"type": "picture-marker", "color": "#11C1FE", "colorDark": "#11C1FE", "url": "/static/point/cat1.png", "width": "6", "height": "6"}},
+            {"minValue": 20, "maxValue":24.999999999,"lable": "20", "symbol": {"type": "picture-marker", "color": "#2908F1", "colorDark": "#2908F1", "url": "/static/point/cat2.png", "width": "8", "height": "8"}},
+            {"minValue": 25, "maxValue": 29.999999999,"lable": "25", "symbol": {"type": "picture-marker", "color": "#E1BA53", "colorDark": "#E1BA53", "url": "/static/point/cat3.png", "width": "10", "height": "10"}},
+            {"minValue": 30, "maxValue": 31.999999999,"lable": "30", "symbol": {"type": "picture-marker", "color": "#F95202", "colorDark": "#F95202", "url": "/static/point/cat4.png", "width": "12", "height": "12"}},
+            {"minValue": 32, "maxValue": 3199.999999999,"lable": "32", "symbol": {"type": "picture-marker", "color": "#AD0322", "colorDark": "#AD0322", "url": "/static/point/cat5.png", "width": "14", "height": "16"}}
+            ]
+        }
+    },
+    {
+        
+        "id":"Demand",
+        "code": "Result_Demand_",
+        "title":"ztLayer",
+        "url":"http://112.64.170.158:8888/ArcGIS/rest/services/JunctionResult_sz/MapServer/0",
+        "outFields":["ElementId", "Result_Demand_0"],
+        "renderer": {   
+            "type": "class-breaks",
+            "field": "Result_Pressure_0",
+            "visualVariables":[],
+            "classBreakInfos":[
+            {"minValue": 0, "maxValue": 2.499999999,"lable": "0", "symbol": {"type": "picture-marker", "color": "#11C1FE", "colorDark": "#11C1FE", "url": "/static/point/cat1.png", "width": "6", "height": "6"}},
+            {"minValue": 2.5, "maxValue":9.999999999,"lable": "2.5", "symbol": {"type": "picture-marker", "color": "#2908F1", "colorDark": "#2908F1", "url": "/static/point/cat2.png", "width": "7", "height": "7"}},
+            {"minValue": 10, "maxValue": 49.999999999,"lable": "10", "symbol": {"type": "picture-marker", "color": "#E1BA53", "colorDark": "#E1BA53", "url": "/static/point/cat3.png", "width": "9", "height": "9"}},
+            {"minValue": 50, "maxValue": 99.999999999,"lable": "50", "symbol": {"type": "picture-marker", "color": "#F95202", "colorDark": "#F95202", "url": "/static/point/cat4.png", "width": "13", "height": "13"}},
+            {"minValue": 100, "maxValue": 9999.999999999,"lable": "100", "symbol": {"type": "picture-marker", "color": "#AD0322", "colorDark": "#AD0322", "url": "/static/point/cat5.png", "width": "18", "height": "18"}}
+            ]
+        }
+    },{
+        
+        "id":"SupplyArea",
+        "code": "Result_SupplyArea_",
+        "title":"ztLayer",
+        "url":"http://112.64.170.158:8888/ArcGIS/rest/services/PipeResult_sz/MapServer/0",
+        "outFields":["ElementId", "Result_SupplyArea_0"],
+        "renderer": {   
+            "type": "unique-value",
+            "field": "Result_SupplyArea_0",
+            "visualVariables":[],
+            "uniqueValueInfos":[
+                {"value": "1393378","lable": "南山水厂", "symbol": {"type": "simple-line", "colorDark": "#EE1289", "color": "#EE1289", "style": "solid", "width": "2"}},
+                {"value": "1393379","lable": "东湖水厂", "symbol": {"type": "simple-line", "colorDark": "#00c7ff", "color": "#00c7ff", "style": "solid", "width": "2"}},
+                {"value": "1393373","lable": "笔架山水厂", "symbol": {"type": "simple-line", "colorDark": "#ffaa00", "color": "#ffaa00", "style": "solid", "width": "2"}},
+                {"value": "1144896","lable": "盐田港水厂", "symbol": {"type": "simple-line", "colorDark": "#00ffc6", "color": "#00ffc6", "style": "solid", "width": "2"}},
+                {"value": "1393374","lable": "梅林水厂", "symbol": {"type": "simple-line", "colorDark": "#EE00EE", "color": "#EE00EE", "style": "solid", "width": "2"}},
+                {"value": "1393376","lable": "大涌老水厂", "symbol": {"type": "simple-line", "colorDark": "#005de7", "color": "#005de7", "style": "solid", "width": "2"}},
+                {"value": "1393372","lable": "大涌新水厂", "symbol": {"type": "simple-line", "colorDark": "#73aa00", "color": "#73aa00", "style": "solid", "width": "2"}},
+                {"value": "1144895","lable": "沙头角水厂", "symbol": {"type": "simple-line", "colorDark": "#9e1c1c", "color": "#9e1c1c", "style": "solid", "width": "2"}}
+            ]
+        }
+    },{
+        
+        "id":"Age",
+        "code": "Result_Age_",
+        "title":"ztLayer",
+        "url":"http://112.64.170.158:8888/ArcGIS/rest/services/PipeResult_sz/MapServer/0",
+        "outFields":["ElementId", "Result_Age_0"],
+        "renderer": {   
+            "type": "class-breaks",
+            "field": "Result_Age_0",
+            "visualVariables":[],
+            "classBreakInfos":[
+                {"minValue": 0, "maxValue": 4.999999999, "lable": "0", "symbol": {"type": "simple-line", "colorDark": "#005de7", "color": "#005de7", "style": "solid", "width": "0.5"}},
+                {"minValue": 5, "maxValue": 23.999999999, "lable": "24", "symbol": {"type": "simple-line", "colorDark": "#00ffc6", "color": "#00ffc6", "style": "solid", "width": "0.7"}},
+                {"minValue": 24, "maxValue": 35.999999999, "lable": "48", "symbol": {"type": "simple-line", "colorDark": "#73aa00", "color": "#73aa00", "style": "solid", "width": "1"}},
+                {"minValue": 36, "maxValue": 71.999999999, "lable": "72", "symbol": {"type": "simple-line", "colorDark": "#e79a00", "color": "#e79a00", "style": "solid", "width": "1.5"}},
+                {"minValue": 72, "maxValue": 7199.999999999, "lable": "96", "symbol": {"type": "simple-line", "colorDark": "#EE1289", "color": "#EE1289", "style": "solid", "width": "2"}}
+            ]
+        }
+    },{
+        
+        "id":"PipeAge",
+        "code": "PipeAge",
+        "title":"ztLayer",
+        "url":"http://112.64.170.158:8888/ArcGIS/rest/services/ModelPipe_sz_BaseMap/MapServer/8",
+        "outFields":["ElementId", "PipeAge"],
+        "renderer": {   
+            "type": "class-breaks",
+            "field": "PipeAge",
+            "visualVariables":[],
+            "classBreakInfos":[
+                {"minValue": 0, "maxValue": 4.999999999,"lable": "0", "symbol": {"type": "simple-line", "colorDark": "#005de7", "color": "#005de7", "style": "solid", "width": "0.2"}},
+                {"minValue": 5, "maxValue": 9.999999999,"lable": "5", "symbol": {"type": "simple-line", "colorDark": "#21bff3", "color": "#21bff3", "style": "solid", "width": "0.5"}},
+                {"minValue": 10, "maxValue": 14.999999999,"lable": "10", "symbol": {"type": "simple-line", "colorDark": "#058a9a", "color": "#058a9a", "style": "solid", "width": "0.7"}},
+                {"minValue": 15, "maxValue": 19.999999999,"lable": "15", "symbol": {"type": "simple-line", "colorDark": "#0bc840", "color": "#0bc840", "style": "solid", "width": "1"}},
+                {"minValue": 20, "maxValue": 24.999999999,"lable": "20", "symbol": {"type": "simple-line", "colorDark": "#afd70f", "color": "#afd70f", "style": "solid", "width": "1.5"}},
+                {"minValue": 25, "maxValue": 29.999999999,"lable": "25", "symbol": {"type": "simple-line", "colorDark": "#f7df15", "color": "#f7df15", "style": "solid", "width": "2"}},
+                {"minValue": 30, "maxValue": 3000,"lable": "30", "symbol": {"type": "simple-line", "colorDark": "#f07419", "color": "#f07419", "style": "solid", "width": "3"}}, 
+                {"minValue": "", "maxValue": "未知","lable": "", "symbol": {"type": "simple-line", "colorDark": "#000000", "color": "#000000", "style": "solid", "width": "0.1"}} 
+            ]
+        }
+    },{
+        
+        "id":"Diameter",
+        "code": "PipeAge",
+        "title":"ztLayer",
+        "url":"http://112.64.170.158:8888/ArcGIS/rest/services/ModelPipe_sz_BaseMap/MapServer/8",
+        "outFields":["ElementId", "Physical_PipeDiameter"],
+        "renderer": {   
+            "type": "class-breaks",
+            "field": "Physical_PipeDiameter",
+            "visualVariables":[],
+            "classBreakInfos":[
+                {"minValue": 0, "maxValue": 99.999999999,"lable": "0", "symbol": {"type": "simple-line", "colorDark": "#005de7", "color": "#005de7", "style": "solid", "width": "0.2"}},
+                {"minValue": 100, "maxValue": 299.999999999,"lable": "100", "symbol": {"type": "simple-line", "colorDark": "#21bff3", "color": "#21bff3", "style": "solid", "width": "0.5"}},
+                {"minValue": 300, "maxValue": 499.999999999,"lable": "300", "symbol": {"type": "simple-line", "colorDark": "#39aa00", "color": "#39aa00", "style": "solid", "width": "0.7"}},
+                {"minValue":500, "maxValue": 799.999999999,"lable": "500", "symbol": {"type": "simple-line", "colorDark": "#f7df15", "color": "#f7df15", "style": "solid", "width": "1"}},
+                {"minValue": 800, "maxValue": 999.999999999,"lable": "800", "symbol": {"type": "simple-line", "colorDark": "#f07419", "color": "#f07419", "style": "solid", "width": "1.5"}},
+                {"minValue": 1000, "maxValue": 99999.999999999,"lable": "1000", "symbol": {"type": "simple-line", "colorDark": "#b30dd7", "color": "#b30dd7", "style": "solid", "width": "2"}}
+            ]
+        }
+    },{
+        
+        "id":"Material",
+        "code": "PipeAge",
+        "title":"ztLayer",
+        "url":"http://112.64.170.158:8888/ArcGIS/rest/services/ModelPipe_sz_BaseMap/MapServer/8",
+        "outFields":["ElementId", "Physical_PipeMaterial"],
+        "renderer": {   
+            "type": "unique-value",
+            "field": "Physical_PipeMaterial",
+            "visualVariables":[],
+            "uniqueValueInfos":[
+                {"value": "PE", "symbol": {"type": "simple-line", "colorDark": "#632CA5", "color": "#632CA5", "style": "solid", "width": "1"}},
+                {"value": "PE承插管", "symbol": {"type": "simple-line", "colorDark": "#A52484", "color": "#A52484", "style": "solid", "width": "1"}},
+                {"value": "PVC", "symbol": {"type": "simple-line","colorDark": "#94457B", "color": "#94457B", "style": "solid", "width": "1"}},
+                {"value": "薄壁不锈钢", "symbol": {"type": "simple-line", "colorDark": "#94457B", "color": "#AD5D21", "style": "solid", "width": "1"}},
+                {"value": "镀锌管", "symbol": {"type": "simple-line", "colorDark": "#8C5542", "color": "#8C5542", "style": "solid", "width": "1"}},
+                {"value": "刚塑复合管", "symbol": {"type": "simple-line", "colorDark": "#4AAEB5", "color": "#4AAEB5", "style": "solid", "width": "1"}},
+                {"value": "钢管", "symbol": {"type": "simple-line", "colorDark": "#FF5500", "color": "#FF5500", "style": "solid", "width": "1"}},
+                {"value": "钢筋混凝土", "symbol": {"type": "simple-line", "colorDark": "#00FFC6", "color": "#00FFC6", "style": "solid", "width": "1"}},
+                {"value": "钢丝网复合", "symbol": {"type": "simple-line", "colorDark": "#A5AA39", "color": "#A5AA39", "style": "solid", "width": "1"}},
+                {"value": "高密度聚乙烯", "symbol": {"type": "simple-line", "colorDark": "#942C39", "color": "#942C39", "style": "solid", "width": "1"}},
+                {"value": "灰口铸铁管", "symbol": {"type": "simple-line", "colorDark": "#2FF25A", "color": "#2FF25A", "style": "solid", "width": "1"}},
+                {"value": "球磨铸铁管", "symbol": {"type": "simple-line", "colorDark": "#29FFFF", "color": "#29FFFF", "style": "solid", "width": "1"}},
+                {"value": "熟铁管", "symbol": {"type": "simple-line", "colorDark": "#2FAFFA", "color": "#2FAFFA", "style": "solid", "width": "1"}},
+                {"value": "塑料", "symbol": {"type": "simple-line", "colorDark": "#F9A25F", "color": "#F9A25F", "style": "solid", "width": "1"}},
+                {"value": "铜管", "symbol": {"type": "simple-line", "colorDark": "#847D42", "color": "#847D42", "style": "solid", "width": "1"}},
+                {"value": "硬聚氯乙烯", "symbol": {"type": "simple-line", "colorDark": "#A524AA", "color": "#A524AA", "style": "solid", "width": "1"}},
+                {"value": "预应力钢管", "symbol": {"type": "simple-line", "colorDark": "#FFA25A", "color": "#FFA25A", "style": "solid", "width": "1"}},
+                {"value": "铸铁管", "symbol": {"type": "simple-line", "colorDark": "#0071FF", "color": "#0071FF", "style": "solid", "width": "1"}},
+                {"value": "未知", "symbol": {"type": "simple-line", "colorDark": "#29AFF0", "color": "#29AFF0", "style": "solid", "width": "1"}}
+            ]
+        }
+    },{
+        
+        "id":"PressureChange",
+        "code": "PipeAge",
+        "title":"ztLayer",
+        "url":"http://112.64.170.158:8888/ArcGIS/rest/services/JunctionResult_sz/MapServer/0",
+        "outFields":["ElementId", "PressureChange"],
+        "renderer": {   
+            "type": "class-breaks",
+            "field": "PressureChange",
+            "visualVariables":[],
+            "classBreakInfos":[
+                {"minValue": "0", "maxValue": "3.999999999","lable": "0", "symbol": {"type": "picture-marker", "colorDark": "#11C1FE", "color": "#11C1FE", "url": "./static/ygPoint/cat1.png", "width": "8", "height": "8"}},
+                {"minValue": "4", "maxValue": "7.999999999","lable": "4", "symbol": {"type": "picture-marker", "colorDark": "#2908F1", "color": "#2908F1", "url": "./static/ygPoint/cat2.png", "width": "8", "height": "8"}},
+                {"minValue": "7", "maxValue": "10.999999999","lable": "7", "symbol": {"type": "picture-marker", "colorDark": "#E1BA53", "color": "#E1BA53", "url": "./static/ygPoint/cat3.png", "width": "8", "height": "8"}},
+                {"minValue": "11", "maxValue": "13.999999999","lable": "11", "symbol": {"type": "picture-marker", "colorDark": "#F95202", "color": "#F95202", "url": "./static/ygPoint/cat4.png", "width": "8", "height": "8"}},
+                {"minValue": "14", "maxValue": "17.999999999","lable": "14", "symbol": {"type": "picture-marker", "colorDark": "#AD0322", "color": "#AD0322", "url": "./static/ygPoint/cat5.png", "width": "8", "height": "8"}}
+            ]
+        }
+    },{
+        
+        "id":"FlowChangeCount",
+        "code": "PipeAge",
+        "title":"ztLayer",
+        "url":"http://112.64.170.158:8888/ArcGIS/rest/services/PipeResult_sz/MapServer/0",
+        "outFields":["ElementId", "DirectionChange"],
+        "renderer": {   
+            "type": "class-breaks",
+            "field": "DirectionChange",
+            "visualVariables":[],
+            "classBreakInfos":[
+                {"minValue": "", "maxValue": 0,"lable": "0", "symbol": {"type": "simple-line", "colorDark": "#0000FF",  "color": "#0000FF", "style": "solid", "width": "0.2"}},
+                {"minValue": 1, "maxValue": 2,"lable": "1", "symbol": {"type": "simple-line", "colorDark": "#00FF00",  "color": "#00FF00", "style": "solid", "width": "0.5"}},
+                {"minValue": 3, "maxValue": 5,"lable": "3", "symbol": {"type": "simple-line", "colorDark": "#FFFF00",  "color": "#FFFF00", "style": "solid", "width": "1"}},
+                {"minValue": 6," maxValue": 10,"lable": "6", "symbol": {"type": "simple-line", "colorDark": "#FFB90F",  "color": "#FFB90F", "style": "solid", "width": "2"}},
+                {"minValue": 10.000000001, "maxValue": 1000,"lable": "10", "symbol": {"type": "simple-line", "colorDark": "#EE1289",  "color": "#EE1289", "style": "solid", "width": "3"}}
+            ],
+            "defaultSymbol": {"type": "simple-line", "color": "#0000ff", "style": "solid", "width": "0.2"}
+        }
+    }
+]
